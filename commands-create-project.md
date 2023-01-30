@@ -55,3 +55,10 @@ npx prisma db seed
 ```
 npm i @fastify/cors
 ```
+
+### Notificações Push com Web-Push
+para gerar as chaves publicas e privadas rode dentro do arquivo "notificationsroutes.ts"
+
+```js
+console.log(WebPush.generateVAPIDKeys());
+```

@@ -23,6 +23,7 @@ Essa é a API (backend) do projeto Habits, ela serve para armazenar os dados do 
 - [CORS](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS)
 - [@types/node](https://www.npmjs.com/package/@types/node)
 - [tsx](https://www.npmjs.com/package/tsx)
+- [Web-Push](https://www.npmjs.com/package/web-push)
 
 
 ## CONTATO
