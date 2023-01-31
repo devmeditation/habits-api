@@ -4,11 +4,12 @@ import WebPush from "web-push"
 
 // console.log(WebPush.generateVAPIDKeys());
 
-const publicKey = process.env.VITE_WEBPUSH_PUBLICKEY
-const privateKey = process.env.VITE_WEBPUSH_PRIVATEKEY
+const publicKey = process.env.API_WEBPUSH_PUBLICKEY
+const privateKey = process.env.API_WEBPUSH_PRIVATEKEY
+const domain = process.env.API_DOMAIN
 
-if (publicKey && privateKey) {
-  WebPush.setVapidDetails('localhost:3333', publicKey, privateKey)
+if (publicKey && privateKey && domain) {
+  WebPush.setVapidDetails(domain, publicKey, privateKey)
 } else {
   console.log("Erro! sem chaves!!") 
 }

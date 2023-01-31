@@ -24,6 +24,7 @@ Essa é a API (backend) do projeto Habits, ela serve para armazenar os dados do 
 - [@types/node](https://www.npmjs.com/package/@types/node)
 - [tsx](https://www.npmjs.com/package/tsx)
 - [Web-Push](https://www.npmjs.com/package/web-push)
+- [PushManager](https://developer.mozilla.org/pt-BR/docs/Web/API/PushManager)
 
 
 ## CONTATO
